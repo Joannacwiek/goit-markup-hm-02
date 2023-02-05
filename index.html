@@ -12,18 +12,24 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://github.com/sindresorhus/modern-normalize.css"
+    />
   </head>
   <body>
+    <!--header-->
     <header>
+      <!--navigation-->
       <div>
         <nav>
-          <ul>
+          <ul class="navigation">
             <li>
-              <a id="logo" class="nav-link" href="/webstudio.html"
+              <a class="header-logo navigation" lang="en" href="/webstudio.html"
                 ><span class="highlight">Web</span>Studio</a
               >
             </li>
-            <li><a class="nav-link" href="/adencja.html">Agencja</a></li>
+            <li><a class="nav-link" href="/agencja.html">Agencja</a></li>
             <li><a class="nav-link" href="/portfolio.html">Portfolio</a></li>
             <li><a class="nav-link" href="/kontakt.html">Kontakt</a></li>
           </ul>
@@ -38,7 +44,7 @@
       <!--HERO-->
       <section>
         <div class="hero">
-          <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <h1 class="title-hero">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
           <button class="button-hero" type="button">Zamów usługę</button>
         </div>
       </section>
@@ -69,10 +75,11 @@
           </ul>
         </div>
         <div>
-          <h2>Czym się zajmujemy</h2>
+          <h2 class="section-title">Czym się zajmujemy</h2>
           <ul>
             <li>
               <img
+                class="portfolio-tiles"
                 src="images/we-do1.jpg"
                 alt="picture of a computer"
                 width="370"
@@ -81,6 +88,7 @@
             </li>
             <li>
               <img
+                class="portfolio-tiles"
                 src="images/we-do2.jpg"
                 alt="picture of a smartphone"
                 width="370"
@@ -89,6 +97,7 @@
             </li>
             <li>
               <img
+                class="portfolio-tiles"
                 src="images/we-do3.jpg"
                 alt="picture of a tablet"
                 width="370"
@@ -101,7 +110,7 @@
       <!--Our team-->
       <section>
         <div>
-          <h2>Nasz Zespół</h2>
+          <h2 class="section-title">Nasz Zespół</h2>
         </div>
         <div>
           <ul>
@@ -168,7 +177,7 @@
     <footer>
       <div>
         <p>
-          <a class="footer-logo" href="#"
+          <a class="footer-logo" lang="en" href="#"
             ><span class="highlight">Web</span>Studio</a
           >
         </p>
