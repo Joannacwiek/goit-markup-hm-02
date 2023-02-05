@@ -215,7 +215,5 @@ header {
   line-height: 2.25;
   color: var(--brand-black);
   letter-spacing: 0.06em;
-}
-.portfolio-tiles {
   list-style-type: none;
 }
