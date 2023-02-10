@@ -94,6 +94,9 @@ body {
   color: var(--white-color);
   text-align: Center;
 }
+.list {
+  list-style: none;
+}
 /*What we do*/
 .section-title {
   font-size: 36px;
